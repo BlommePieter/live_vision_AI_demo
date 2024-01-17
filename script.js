@@ -4,11 +4,11 @@ let videoStream;
 let liveCaptionInterval;
 
 // Replace with your Azure Computer Vision API key and endpoint
-const apiKey = 'b98546f95ca748d2886cbf3e0d3fbc2f';
-const endpoint = 'https://cv-pieter-blomme.cognitiveservices.azure.com';
+const apiKey = 'add your own apikey';
+const endpoint = 'add your own endpoint';
 
-const speechKey = 'ffa2e99ef45b447ca5d77a52ed6fcb35';
-const serviceRegion = 'westeurope';
+const speechKey = 'add your own speech api key';
+const serviceRegion = 'add the region your tts is';
 
 let currentCameraFacingMode = 'environment';
 
