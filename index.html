@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/microsoft-cognitiveservices-speech-sdk/distrib/browser/microsoft.cognitiveservices.speech.sdk.bundle.js">
+    </script>
+    <script src="script.js"></script>
+    <title>Live camera caption webapp</title>
+</head>
+
+<body>
+
+    <div id="debug">
+
+    </div>
+
+    <div id="debug2">
+
+    </div>
+
+    <div class="container">
+        <button class="btn" onclick="toggleCamera()">Toggle Camera</button>
+        <button class="btn" id="toggleLiveCaption" onclick="toggleLiveCaption()">Toggle Live Caption</button>
+        <video id="cameraFeed" autoplay style="display:none;"></video>
+        <button class="btn" id="flipCameraBtn" style="display:none;" onclick="flipCamera()">Flip Camera</button>
+    </div>
+
+</body>
+
+</html>
